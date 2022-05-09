@@ -51,7 +51,7 @@ const App = () => {
     return <div>...Loading</div>;
   }
 
-  const renderResult = (filteredCountries, countries) => {
+  const renderResult = (filteredCountries) => {
     if (filteredCountries.length > 10) {
       return <p>Too many matches result. Specify another filter</p>;
     }
