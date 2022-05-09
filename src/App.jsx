@@ -66,7 +66,7 @@ const App = () => {
         <FilterInput onChange={handleSearch} value={search} />
       </div>
       {!error && filteredCountries.length > 0 ? (
-        renderResult(filteredCountries, countries)
+        renderResult(filteredCountries)
       ) : (
         <div>No result</div>
       )}
